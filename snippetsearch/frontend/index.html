@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Code Snippet Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>GitHub Snippet Search Engine</h1>
+    <div class="input-group">
+        <input type="text" id="query" placeholder="Search something like login, auth, button..." />
+
+        <!-- Dropdown for language selection -->
+        <select id="language">
+            <option value="">Select Language</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+            <option value="csharp">C#</option>
+            <option value="cpp">C++</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="php">PHP</option>
+            <option value="typescript">TypeScript</option>
+            <option value="kotlin">Kotlin</option>
+            <option value="swift">Swift</option>
+            <option value="go">Go</option>
+            <option value="ruby">Ruby</option>
+            <option value="rust">Rust</option>
+            <option value="dart">Dart</option>
+            <option value="scala">Scala</option>
+            <option value="r">R</option>
+            <option value="perl">Perl</option>
+            <option value="bash">Bash</option>
+            <option value="shell">Shell</option>
+            <option value="sql">SQL</option>
+        </select>
+
+        <button id="searchBtn" onclick="search()">Search</button>
+    </div>
+    <div id="results"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
