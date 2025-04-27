@@ -13,12 +13,12 @@ import java.util.List;
 @Service
 public class GitHubService {
 
-    // API AND TOKEN
+    // A***p***i    T//***k**en
 
     public List<Snippet> searchSnippets(String query, String language) {
         RestTemplate restTemplate = new RestTemplate();
 
-        String fullUrl = GITHUB_API + query + "+language:" + language + "&per_page=5";
+        // String fullUrl = g**thu**to//**en + query + "+language:" + language + "&per_page=5";
 
         HttpHeaders headers = new HttpHeaders();
         headers.set("Authorization", "token " + GITHUB_TOKEN);
@@ -44,3 +44,4 @@ public class GitHubService {
         return resultList;
     }
 }
+
