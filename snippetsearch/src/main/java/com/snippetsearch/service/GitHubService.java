@@ -13,8 +13,7 @@ import java.util.List;
 @Service
 public class GitHubService {
 
-    private final String GITHUB_TOKEN = "******************************************************************";
-    private final String GITHUB_API = "https://api.github.com/********************;
+    // API AND TOKEN
 
     public List<Snippet> searchSnippets(String query, String language) {
         RestTemplate restTemplate = new RestTemplate();
