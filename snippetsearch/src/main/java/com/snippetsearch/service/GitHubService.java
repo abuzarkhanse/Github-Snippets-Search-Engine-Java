@@ -14,7 +14,7 @@ import java.util.List;
 public class GitHubService {
 
     private final String GITHUB_TOKEN = "******************************************************************";
-    private final String GITHUB_API = "https://api.github.com/search/code?q=";
+    private final String GITHUB_API = "https://api.github.com/********************;
 
     public List<Snippet> searchSnippets(String query, String language) {
         RestTemplate restTemplate = new RestTemplate();
