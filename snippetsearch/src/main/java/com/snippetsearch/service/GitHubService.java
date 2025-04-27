@@ -13,7 +13,7 @@ import java.util.List;
 @Service
 public class GitHubService {
 
-    private final String GITHUB_TOKEN = "github_pat**********************************************************";
+    private final String GITHUB_TOKEN = "******************************************************************";
     private final String GITHUB_API = "https://api.github.com/search/code?q=";
 
     public List<Snippet> searchSnippets(String query, String language) {
